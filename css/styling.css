@@ -5,12 +5,6 @@ html {
   box-sizing: inherit;
 }
 
-#navbar{
-  overflow: hidden;
-  background-color: #FFFFFF;
-  position: fixed;
-}
-
 body {
   color: #293C93; /*ngewarnain semua text*/
   margin: 0;
@@ -37,7 +31,7 @@ h1, h2 {
 	font-family: 'Abril Fatface', cursive;
 	font-family: 'Ultra', serif;
 	font-weight: 200;
-  	color: #FEE230;
+  	color: #faa950;
   	margin: 0;  
 }
 
@@ -46,3 +40,135 @@ h1, h2 {
   width: 85%;
   margin: 0 auto;
   padding: 60px 0;
+
+  }
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+  background: #7EA2AA;
+  color: #F7FFF7;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #8BE8CB;
+}
+.projects a {
+  color: #2F3061;
+}
+.projects .btn {
+  color: #F7FFF7;
+  background: #7EA2AA;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #7EA2AA;
+}
+.work-experience a {
+  color: #2F3061;
+}
+.work-experience .btn {
+  color: #F7FFF7;
+  background: #7EA2AA;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.work-experience .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+/* Education
+------------------------------------*/
+.education {
+  background-image: url(../images/sticky-notes.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
+/* Gallery
+--------------*/
+.image-gallery {
+  background: #7EA2AA;
+}
+.image-gallery a {
+  color: #2F3061;
+}
+.image-gallery .btn {
+  color: #F7FFF7;
+  background: #7EA2AA;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.image-gallery .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.hobby-item {
+  overflow: hidden;
+}
+.hobby-item h3 {
+  margin-top: 0;
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #7EA2AA;
+  color: #F7FFF7;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
