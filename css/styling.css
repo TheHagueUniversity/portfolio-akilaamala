@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#navbar{
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+}
+
+body {
+  color: #293C93; /*ngewarnain semua text*/
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #CC193C; 
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+h2 {
+  font-size: 30px;
+}
+h1, h2 { 
+	font-family: 'Bowlby One SC', cursive;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Ultra', serif;
+	font-weight: 200;
+  	color: #FEE230;
+  	margin: 0;  
+}
+
+.title-name {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
