@@ -5,17 +5,36 @@ html {
   box-sizing: inherit;
 }
 
+#navbar{
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+}
+
+/* Navbar links*/
+#navbar a {
+  float: top left;
+  display: block;
+  color: #FFEAD6;
+  text-align: left;
+  font-family: 'Bowlby One SC', cursive;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Ultra', serif;
+  font-size: 15px;
+  padding: 15px;
+  text-decoration: none;
+}
+
 body {
-  color: #293C93; /*ngewarnain semua text*/
-  margin: 0;
-  padding: 0;
+  background-image: url('banner2.jpg');
+  color: none; /*ngewarnain semua text*/
+  margin: 50;
+  padding: 50;
 }
 img {
   width: 300px;
 }
-a {
-  color: #CC193C; 
-}
+
 a:hover {
   text-decoration: none;
 }
@@ -24,151 +43,23 @@ h1 {
   line-height: 1;
 }
 h2 {
-  font-size: 30px;
+  font-size: 20px;
 }
 h1, h2 { 
 	font-family: 'Bowlby One SC', cursive;
 	font-family: 'Abril Fatface', cursive;
 	font-family: 'Ultra', serif;
 	font-weight: 200;
-  	color: #faa950;
-  	margin: 0;  
-}
-
-.title-name {
-  max-width: 800px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 60px 0;
-
-  }
-h3 {
-  margin-bottom: 0;
-}
-.item-details h3 + p {
-  font-style: italic;
-}
-.item-details h3 ~ p {
+  color: #F9C14F;
   margin: 0;
-}
-.divider > section {
-  border-bottom: 1px dashed #343434;
-  padding: 25px 0;
-}
-.divider > section:last-of-type {
-  border-bottom: none;
+  
 }
 
-
-/* Profile
-------------------------------------*/
-header {
-  background: #7EA2AA;
-  color: #F7FFF7;
-}
-
-
-/* Projects
-------------------------------------*/
-.projects {
-  background: #8BE8CB;
-}
-.projects a {
-  color: #2F3061;
-}
-.projects .btn {
-  color: #F7FFF7;
-  background: #7EA2AA;
-  text-decoration: none;
-  padding: 8px;
-  border-radius: 4px;
-  display: inline-block;
-}
-.projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
-}
-.project-item {
-  overflow: hidden;
-}
-.project-item h3 {
-  margin-top: 0;
-}
-
-
-/* Work Experience
-------------------------------------*/
-.work-experience {
-  background: #7EA2AA;
-}
-.work-experience a {
-  color: #2F3061;
-}
-.work-experience .btn {
-  color: #F7FFF7;
-  background: #7EA2AA;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 4px;
-  display: inline-block;
-}
-.work-experience .btn:hover {
-  background: rgba(47, 48, 97, 80%);
-}
-.project-item {
-  overflow: hidden;
-}
-.project-item h3 {
-  margin-top: 0;
-}
-/* Education
-------------------------------------*/
-.education {
-  background-image: url(../images/sticky-notes.jpg);
-  background-size: cover;
-  background-position: top right;
-  padding-bottom: 100px;
-}
-.education p {
+.title-name { /*this is the image bg part, what's wrong with it aaaa*/
+  z-index: auto;
+  max-width: 800px;
   width: 60%;
-}
-
-/* Gallery
---------------*/
-.image-gallery {
-  background: #7EA2AA;
-}
-.image-gallery a {
-  color: #2F3061;
-}
-.image-gallery .btn {
-  color: #F7FFF7;
-  background: #7EA2AA;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 4px;
-  display: inline-block;
-}
-.image-gallery .btn:hover {
-  background: rgba(47, 48, 97, 80%);
-}
-.hobby-item {
-  overflow: hidden;
-}
-.hobby-item h3 {
-  margin-top: 0;
-}
-
-/* Contact Info
-------------------------------------*/
-footer {
-  background: #7EA2AA;
-  color: #F7FFF7;
-}
-.contact-list {
-  list-style-type: none;
-  padding: 0;
-}
-.contact-list a {
-  padding: 15px;
-  display: inline-block;
-}
+  margin: 100px auto;
+  padding: 100px 0;
+  text-align: center;
+  }
