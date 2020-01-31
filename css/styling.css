@@ -9,18 +9,18 @@ html {
   overflow: hidden;
   background-color: none;
   position: fixed;
+  z-index: 100;
 }
 
 /* Navbar links*/
 #navbar a {
+  z-index: 100;
   float: top left;
   display: block;
   color: #FFEAD6;
   text-align: left;
-  font-family: 'Bowlby One SC', cursive;
-	font-family: 'Abril Fatface', cursive;
-	font-family: 'Ultra', serif;
-  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
   padding: 15px;
   text-decoration: none;
 }
@@ -33,11 +33,11 @@ a:hover {
   text-decoration: none;
 }
 h1 {
-  font-size: 50px;
+  font-size: 70px;
   line-height: 1;
 }
 h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 h1, h2 { 
 	font-family: 'Bowlby One SC', cursive;
@@ -55,15 +55,15 @@ h1, h2 {
   width: 60%;
   margin: 100px auto;
   padding: 100px 0;
-  left: 440px;
-  top:120px;
+  left: 390px;
+  top:100px;
   position:absolute;
   }
 
 .banner{
-  width: 70%;
-  top:150px;
-  left:200px;
+  width: 80%;
+  top:80px;
+  left:150px;
   z-index:0;
   position:absolute;
 }
