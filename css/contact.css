@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.tv {
+	z-index: 0
+	  width: 76%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;;
+}
