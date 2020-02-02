@@ -5,35 +5,25 @@ html {
   box-sizing: inherit;
 }
 
+h2 {
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-weight: 200;
+  color: #F9C14F;
+  margin: 0;
+}
 h1{ 
-  font-size: 50px;
+	  font-size: 50px;
   line-height: 1;
-  font-family: 'Bowlby One SC', cursive;
-  font-family: 'Abril Fatface', cursive;
-  font-family: 'Ultra', serif;
-  font-weight: 200;
+	font-family: 'Bowlby One SC', cursive;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Ultra', serif;
+	font-weight: 200;
   color: #F9C14F;
-  margin: 5;
-  
+  margin: 3;  
 }
-
-h2{ 
-  font-size: 25px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 200;
-  font-weight: 200;
-  color: #F9C14F;
-  margin: 2;  
-}
-
-h3{
-  font-size: 25px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 200;
-  margin: 2;  
-}
-
-p{
+p {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
   margin: 2;  
@@ -52,16 +42,3 @@ p{
   text-decoration: none;
 }
 
-.title-name {
-  padding-left:25px;
-}
-
-.tv {
-	z-index: 0;
-	max-width: 100%;
-  margin-left: 250px;
-  margin-right: auto;
-  margin-top:50px;
-
- 
-}

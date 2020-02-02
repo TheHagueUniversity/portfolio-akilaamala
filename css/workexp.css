@@ -4,3 +4,44 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+h2 {
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-weight: 200;
+  color: #F9C14F;
+  margin: 0;
+}
+h1{ 
+	  font-size: 50px;
+  line-height: 1;
+	font-family: 'Bowlby One SC', cursive;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Ultra', serif;
+	font-weight: 200;
+  color: #F9C14F;
+  margin: 3;  
+}
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  margin: 2;  
+}
+
+/* Navbar links*/
+#navbar a {
+  z-index: 100;
+  float: top-right;
+  display: inline-block;
+  color: #FFEAD6;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.pics{
+float: bottom;
+  max-width: 20%;
+}
