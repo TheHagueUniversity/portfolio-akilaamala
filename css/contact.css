@@ -58,10 +58,11 @@ p{
 
 .tv {
 	z-index: 0;
-	max-width: 100%;
-  margin-left: 250px;
+	width: 50%;
+  margin-left: 300px;
   margin-right: auto;
   margin-top:50px;
+  position: absolute;
 
  
 }

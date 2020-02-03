@@ -42,6 +42,9 @@ p {
   text-decoration: none;
 }
 .pics{
-float: bottom;
-  max-width: 20%;
+  width: 30%;
+  top:222px;
+  left:900px;
+  z-index:0;
+  position:absolute;
 }

@@ -86,10 +86,10 @@ p {
 
 .text2 {
  top:400px;
-  left:100px;
+  left:300px;
   position:absolute;
   width:300px;
-  text-align: center;
+  text-align: left;
   list-style: none;
   z-index: 50;
 }
