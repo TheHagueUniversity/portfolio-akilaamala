@@ -23,6 +23,12 @@ h1{
   color: #F9C14F;
   margin: 3;  
 }
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  margin: 2;  
+  color: #ffead6;
+}
 p {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
