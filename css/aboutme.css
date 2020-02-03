@@ -18,10 +18,20 @@ img {
 a:hover {
   text-decoration: none;
 }
-h1 {
-  font-size: 50px;
-  line-height: 1;
+/* Navbar links*/
+#navbar a {
+  z-index: 1000;
+  float: top-right;
+  display: inline-block;
+  color: #FFEAD6;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 20px;
+  text-decoration: none;
+  position: relative;
 }
+
 h2 {
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
@@ -37,6 +47,8 @@ h1{
 	font-weight: 200;
   color: #F9C14F;
   margin: 3;  
+   font-size: 50px;
+  line-height: 1;
 }
 p {
   font-family: 'Josefin Sans', sans-serif;
@@ -44,23 +56,11 @@ p {
   margin: 2;  
 }
 
-/* Navbar links*/
-#navbar a {
-  z-index: 1000;
-  float: top-right;
-  display: inline-block;
-  color: #FFEAD6;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px;
-  padding-left: 25px;
-  padding-top: 10px;
-  text-decoration: none;
-}
 
 
 .title-name { 
-  top:0px;
-  left:50px;
+  top:20px;
+  left:30px;
   position:absolute;
     z-index: 50;
   }
@@ -80,7 +80,7 @@ p {
   width: 50%;
   top:50px;
   left:650px;
-  z-index:0;
+  z-index:300;
   position:absolute;
 }
 
@@ -99,6 +99,8 @@ p {
   width: 100vw;
   height:100vh;
   display: grid;
+  position: relative;
+  z-index: 0;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
   background-color: none;
@@ -109,10 +111,28 @@ p {
   margin: 0px;
 }
 
-.item-1{
+.info{
+  background-color: #EF6356;
+}
+
+/*.item-1{
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 25;
+  grid-row-end: 50;
   background-color: #EF6356;
+} */
+
+.language{
+  margin: 30px;
+  width: 40%;
+}
+
+.software{
+  width: 40%;
+}
+
+
+.softskill{
+  width: 40%;
 }

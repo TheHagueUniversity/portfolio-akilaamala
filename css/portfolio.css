@@ -19,6 +19,19 @@ a:hover {
   text-decoration: none;
 }
 
+/* Navbar links*/
+#navbar a {
+  z-index: 100;
+  float: top-right;
+  display: inline-block;
+  color: #FFEAD6;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
 h1{ 
   font-size: 50px;
   line-height: 1;
@@ -243,7 +256,20 @@ p{
 }
 
 .website{
-    width: 100%;
+    width: 200%;
   display:block;
+    margin-left: auto;
+  margin-right: auto;
   z-index:0; 
+
+}
+
+.hallmark{
+width:25%;
+padding:8px;
+}
+
+.hallmark3{
+width:25%;
+padding:8px;
 }
